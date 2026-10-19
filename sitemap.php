@@ -44,6 +44,7 @@ try {
         'commercial-refrigeration-repair' => ['priority' => '0.9', 'changefreq' => 'monthly'],
         'coolroom-repair'          => ['priority' => '0.8', 'changefreq' => 'monthly'],
         'commercial-freezer-repair' => ['priority' => '0.8', 'changefreq' => 'monthly'],
+        'ice-machine-repair'       => ['priority' => '0.8', 'changefreq' => 'monthly'],
         'services'                 => ['priority' => '0.9', 'changefreq' => 'monthly'],
         'brands'                   => ['priority' => '0.9', 'changefreq' => 'monthly'],
     ];
