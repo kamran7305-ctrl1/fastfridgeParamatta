@@ -9,7 +9,7 @@ Standing rules: `claude/content-standard.md` and `claude/website-context.md`. Ke
 1. COMM-FRIDGE: Commercial Fridge & Refrigeration Repair (hub) -> `/commercial-refrigeration-repair` (Wk 1-2 P1) [DONE 16 Oct]
 2. COOLROOM: Coolroom & Cold Room Repair -> `/coolroom-repair` (Wk 1-2 P1) [DONE 16 Oct]
 3. COMM-FREEZER: Commercial Freezer Repair -> `/commercial-freezer-repair` (Wk 3-4 P1) [DONE 16 Oct]
-4. ICE: Ice Machine Repair -> `/ice-machine-repair` (Wk 3-4 P2) [TO DO]
+4. ICE: Ice Machine Repair -> `/ice-machine-repair` (Wk 3-4 P2) [DONE 19 Oct]
 5. SEAL: Fridge Door Seal Replacement -> `/fridge-door-seal-replacement` (Wk 3-4 P1) [TO DO]
 6. FREEZER: Freezer Repair -> `/freezer-repair` (Wk 1-2 P1) [TO DO]
 7. BR-WESTINGHOUSE: Westinghouse Fridge Repair -> `/westinghouse-fridge-repair` (Wk 3-4 P1) [TO DO]
@@ -36,6 +36,7 @@ Standing rules: `claude/content-standard.md` and `claude/website-context.md`. Ke
 - COMM-FRIDGE: `/commercial-refrigeration-repair` [DONE 16 Oct; schema in claude/schemas/]
 - COOLROOM: `/coolroom-repair` [DONE 16 Oct; schema in claude/schemas/]
 - COMM-FREEZER: `/commercial-freezer-repair` [DONE 16 Oct; schema in claude/schemas/]
+- ICE: `/ice-machine-repair` [DONE 19 Oct; schema in claude/schemas/]
 
 ## Live pages that still need the sheet's title/meta/H1 optimisation (later phase)
 
@@ -57,4 +58,5 @@ Standing rules: `claude/content-standard.md` and `claude/website-context.md`. Ke
 - RULE: before building any page, check the live site if the network allows (sandbox could not reach fridgerepairparramatta.com.au on 16 Oct); otherwise ask the owner to confirm the page does not already exist.
 - 16 Oct 2026: Built COMM-FREEZER (/commercial-freezer-repair). Owner confirmed it did not exist live. Linked from COMM-FRIDGE hub (upright card) and COOLROOM related list.
 - BRANCHES: all new work goes on `claude/new-pages-seo-oct16` (PR #8 to main). Do NOT push to `claude/site-layout-review-knuu9t` (PR #7, owner wants it left alone).
-- Next: ICE (/ice-machine-repair).
+- 19 Oct 2026: Built ICE (/ice-machine-repair) on branch `claude/ice-machine-page` (owner confirmed 404 on live site). Linked from COMM-FRIDGE hub, footer/header "Ice Machine Repair" and services card. PR #8 and #9 are merged; `claude/new-pages-seo-oct16` is finished, use a fresh branch from `main` per page.
+- Next: SEAL (/fridge-door-seal-replacement).
