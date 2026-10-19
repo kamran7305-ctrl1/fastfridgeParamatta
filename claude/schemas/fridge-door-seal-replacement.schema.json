@@ -1,0 +1,204 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://fridgerepairparramatta.com.au/fridge-door-seal-replacement#webpage",
+      "url": "https://fridgerepairparramatta.com.au/fridge-door-seal-replacement",
+      "name": "Fridge Door Seal Replacement Parramatta | Fast Fit",
+      "description": "Fridge and freezer door seal replacement in Parramatta. Stops warm air leaks and cuts power bills. Same-day fit, free quote.",
+      "inLanguage": "en-AU",
+      "about": {
+        "@id": "https://fridgerepairparramatta.com.au/fridge-door-seal-replacement#service"
+      },
+      "breadcrumb": {
+        "@id": "https://fridgerepairparramatta.com.au/fridge-door-seal-replacement#breadcrumb"
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://fridgerepairparramatta.com.au/fridge-door-seal-replacement#service",
+      "name": "Fridge Door Seal Replacement Parramatta",
+      "serviceType": "Fridge and freezer door seal replacement",
+      "description": "Fridge, freezer, commercial fridge and coolroom door seal replacement in Parramatta and Western Sydney. Genuine or custom-made seals supplied and fitted, with hinge and door alignment repairs. Licensed technicians, fixed quotes and a 1-year warranty on parts and labour.",
+      "provider": {
+        "@id": "https://fridgerepairparramatta.com.au/#business"
+      },
+      "areaServed": [
+        {
+          "@type": "City",
+          "name": "Parramatta"
+        },
+        {
+          "@type": "Place",
+          "name": "North Parramatta"
+        },
+        {
+          "@type": "Place",
+          "name": "Harris Park"
+        },
+        {
+          "@type": "Place",
+          "name": "Westmead"
+        },
+        {
+          "@type": "Place",
+          "name": "Rosehill"
+        },
+        {
+          "@type": "Place",
+          "name": "Granville"
+        },
+        {
+          "@type": "Place",
+          "name": "Merrylands"
+        },
+        {
+          "@type": "Place",
+          "name": "Northmead"
+        },
+        {
+          "@type": "Place",
+          "name": "Wentworthville"
+        },
+        {
+          "@type": "Place",
+          "name": "Rydalmere"
+        },
+        {
+          "@type": "Place",
+          "name": "Dundas"
+        },
+        {
+          "@type": "Place",
+          "name": "Oatlands"
+        },
+        {
+          "@type": "Place",
+          "name": "Carlingford"
+        },
+        {
+          "@type": "Place",
+          "name": "Toongabbie"
+        },
+        {
+          "@type": "Place",
+          "name": "Ermington"
+        }
+      ],
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "AUD",
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "minPrice": 120,
+          "maxPrice": 300,
+          "priceCurrency": "AUD"
+        }
+      },
+      "url": "https://fridgerepairparramatta.com.au/fridge-door-seal-replacement"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://fridgerepairparramatta.com.au/fridge-door-seal-replacement#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://fridgerepairparramatta.com.au/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Services",
+          "item": "https://fridgerepairparramatta.com.au/services"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Fridge Door Seal Replacement",
+          "item": "https://fridgerepairparramatta.com.au/fridge-door-seal-replacement"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://fridgerepairparramatta.com.au/fridge-door-seal-replacement#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How much does fridge door seal replacement cost in Parramatta?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Most fridge and freezer door seal replacements cost $120 to $300, depending on the brand and whether a genuine seal is available or a custom seal has to be made. Premium brands cost more. You get a fixed quote before we start, and that is the price you pay."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I know my fridge door seal needs replacing?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Common signs are a door that does not close tight, a seal that is cracked, torn, mouldy or gone hard, frost or condensation near the door, and a fridge that runs all the time. A simple test is to shut the door on a sheet of paper. If it slides out easily, the seal is not gripping."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I replace a fridge door seal myself?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sometimes. If you can buy the right seal for your exact model, many pull-in seals can be fitted by hand. The common problems are buying the wrong size, fitting it without warming it first, and missing a door that is out of alignment. We supply and fit the right seal so you do not have to guess."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the difference between a genuine and a custom-made fridge seal?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A genuine seal is the manufacturer's part for your model. A custom-made seal is cut and joined to your fridge's measurements, which is useful for older or discontinued models. We tell you which is available and what each costs before we start."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does a fridge door seal replacement take?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "When we have the right seal, the fit itself is usually done in one visit. A custom-made seal takes longer because it has to be made, and we give you a timeframe when we quote."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Will a new door seal lower my power bill?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A worn seal lets warm air in, so the compressor runs longer. A new seal helps the fridge hold its temperature and run less. We do not promise a specific saving because it depends on the fridge and how worn the old seal was."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can a fridge seal be repaired instead of replaced?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sometimes. A small dent or fold can often be corrected, and a door that is out of alignment can be adjusted. If the seal is split, hard or mouldy, replacing it is the better fix. We tell you plainly which one you need."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you replace freezer, commercial and coolroom door seals?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. We replace fridge, freezer, commercial fridge and coolroom door seals. Commercial and coolroom doors are quoted after we see them."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are you a licensed refrigeration business?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Our work is carried out by licensed refrigeration mechanics (Lic #R38910). We are independent and not tied to any brand, so we tell you plainly when a repair is not worth it."
+          }
+        }
+      ]
+    }
+  ]
+}
