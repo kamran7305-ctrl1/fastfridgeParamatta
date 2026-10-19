@@ -46,6 +46,7 @@ try {
         'commercial-freezer-repair' => ['priority' => '0.8', 'changefreq' => 'monthly'],
         'ice-machine-repair'       => ['priority' => '0.8', 'changefreq' => 'monthly'],
         'fridge-door-seal-replacement' => ['priority' => '0.9', 'changefreq' => 'monthly'],
+        'freezer-repair'           => ['priority' => '0.9', 'changefreq' => 'monthly'],
         'services'                 => ['priority' => '0.9', 'changefreq' => 'monthly'],
         'brands'                   => ['priority' => '0.9', 'changefreq' => 'monthly'],
     ];

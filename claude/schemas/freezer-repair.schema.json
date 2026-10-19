@@ -1,0 +1,204 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://fridgerepairparramatta.com.au/freezer-repair#webpage",
+      "url": "https://fridgerepairparramatta.com.au/freezer-repair",
+      "name": "Freezer Repair Parramatta | Upright & Chest Freezers",
+      "description": "Freezer repair in Parramatta: upright, chest and fridge-freezer units. Same-day visits, free quote, 1-year warranty.",
+      "inLanguage": "en-AU",
+      "about": {
+        "@id": "https://fridgerepairparramatta.com.au/freezer-repair#service"
+      },
+      "breadcrumb": {
+        "@id": "https://fridgerepairparramatta.com.au/freezer-repair#breadcrumb"
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://fridgerepairparramatta.com.au/freezer-repair#service",
+      "name": "Freezer Repair Parramatta",
+      "serviceType": "Freezer and fridge-freezer repair",
+      "description": "Freezer repair in Parramatta and Western Sydney: upright freezers, chest freezers and the freezer section of fridge-freezers. Not freezing, frost build-up, fans, defrost systems, door seals, control boards, compressors and gas leaks. Licensed technicians, fixed quotes and a 1-year warranty on parts and labour.",
+      "provider": {
+        "@id": "https://fridgerepairparramatta.com.au/#business"
+      },
+      "areaServed": [
+        {
+          "@type": "City",
+          "name": "Parramatta"
+        },
+        {
+          "@type": "Place",
+          "name": "North Parramatta"
+        },
+        {
+          "@type": "Place",
+          "name": "Harris Park"
+        },
+        {
+          "@type": "Place",
+          "name": "Westmead"
+        },
+        {
+          "@type": "Place",
+          "name": "Rosehill"
+        },
+        {
+          "@type": "Place",
+          "name": "Granville"
+        },
+        {
+          "@type": "Place",
+          "name": "Merrylands"
+        },
+        {
+          "@type": "Place",
+          "name": "Northmead"
+        },
+        {
+          "@type": "Place",
+          "name": "Wentworthville"
+        },
+        {
+          "@type": "Place",
+          "name": "Rydalmere"
+        },
+        {
+          "@type": "Place",
+          "name": "Dundas"
+        },
+        {
+          "@type": "Place",
+          "name": "Oatlands"
+        },
+        {
+          "@type": "Place",
+          "name": "Carlingford"
+        },
+        {
+          "@type": "Place",
+          "name": "Toongabbie"
+        },
+        {
+          "@type": "Place",
+          "name": "Ermington"
+        }
+      ],
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "AUD",
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "minPrice": 150,
+          "maxPrice": 450,
+          "priceCurrency": "AUD"
+        }
+      },
+      "url": "https://fridgerepairparramatta.com.au/freezer-repair"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://fridgerepairparramatta.com.au/freezer-repair#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://fridgerepairparramatta.com.au/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Services",
+          "item": "https://fridgerepairparramatta.com.au/services"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Freezer Repair",
+          "item": "https://fridgerepairparramatta.com.au/freezer-repair"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://fridgerepairparramatta.com.au/freezer-repair#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How much does freezer repair cost in Parramatta?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Most freezer repairs cost $150 to $450 including parts, plus a call-out fee of about $60 to $200. A door seal is $120 to $300, a fan motor $180 to $400, a defrost heater or sensor $150 to $350, a control board $250 to $600 and a compressor $450 to $1,100. You get a fixed quote before we start."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why is my freezer not freezing?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The common causes are a dirty condenser, a failed fan, ice blocking the evaporator because the defrost system has failed, a worn door or lid seal, a faulty thermostat or control board, or low refrigerant from a leak. A technician tests each one in turn."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why is my freezer covered in frost or ice?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Heavy frost usually means the door or lid is not sealing, the defrost heater, timer or sensor has failed in a frost-free model, or the drain is blocked. Chipping the ice off only helps for a short time. We find why it formed and fix that part."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "My freezer has stopped. Should I throw out the food?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Keep the door shut so the cold stays in. If the food is still hard with ice crystals, it is usually fine once the freezer is back. Food that has thawed and sat above 5°C for more than 4 hours should be thrown out and not refrozen."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why is my freezer working but my fridge is warm?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "In many fridge-freezers the cold air is made in the freezer and shared with the fridge by a fan and a damper. If the freezer is cold and the fridge is warm, look for an iced-up evaporator, a failed fan or a stuck damper. Our fridge not cooling repair page covers this in more detail."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can you repair chest freezers as well as upright freezers?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. We repair chest freezers, upright freezers and the freezer section of fridge-freezers, including frost-free and manual defrost models. Have the brand and model ready when you book."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is it worth repairing an old freezer?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Often yes. If the repair costs less than half the price of a similar new freezer and the freezer is under about 10 years old, repairing usually makes sense. Sealed-system faults on old freezers can tip the balance, and we will tell you plainly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you repair commercial freezers?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. We repair commercial freezers for restaurants, cafes, shops and other businesses. Commercial jobs are quoted separately, and our commercial freezer repair page has the details."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are you licensed to repair freezers?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Our work is carried out by licensed refrigeration mechanics (Lic #R38910) who are ARC licensed to handle refrigerant. We are independent and not tied to any brand, so we tell you plainly when a repair is not worth it."
+          }
+        }
+      ]
+    }
+  ]
+}
