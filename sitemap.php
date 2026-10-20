@@ -49,6 +49,7 @@ try {
         'freezer-repair'           => ['priority' => '0.9', 'changefreq' => 'monthly'],
         'fridge-compressor-repair' => ['priority' => '0.8', 'changefreq' => 'monthly'],
         'areas'                    => ['priority' => '0.8', 'changefreq' => 'monthly'],
+        'fridge-repairs-parramatta' => ['priority' => '0.9', 'changefreq' => 'monthly'],
         'services'                 => ['priority' => '0.9', 'changefreq' => 'monthly'],
         'brands'                   => ['priority' => '0.9', 'changefreq' => 'monthly'],
     ];
