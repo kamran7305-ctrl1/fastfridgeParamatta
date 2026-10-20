@@ -23,4 +23,5 @@ The owner does not want to say each day which page to build.
 - Never target Blacktown, Seven Hills, Prospect, Glenwood or Quakers Hill on this site, and never link to or copy text from fridgerepairblacktown.com.au. Do not reuse its section order or FAQ wording (Part C).
 - Titles up to 60 characters and metas 140 to 155 with a clear next step. FAQ questions should be H3 headings. No aggregateRating until real, visible reviews exist.
 - Nav and body links must point to real pages. Use one price source of truth ($150 to $450 repair, call-out $60 to $200 residential, $100 to $250 commercial) and say plainly what is free (the quote) versus paid (the call-out).
-- Open items for the owner (not code): phone number and `tel:` links, unfilled `[confirm]` placeholders on the cost page, unverified "5.0" rating and live-status banners on the homepage, GBP and reviews.
+- OWNER DECISION (20 Oct): do NOT touch the existing reviews, rating, testimonials or live-status banners on the site, and make no site changes because of the playbook. The playbook is saved as reference only. Do not add new review or rating markup to new pages.
+- Open items for the owner (not code, do not do them unless asked): phone number and `tel:` links, `[confirm]` placeholders on the cost page, GBP and reviews.

@@ -1,3 +1,5 @@
+> OWNER NOTE (20 Oct 2026): keep this file as reference only. Do not change the existing reviews, rating or banners on the site, and make no site changes because of it unless the owner asks.
+
 # fridgerepairparramatta.com.au — Competitor Analysis + Content & Linking Playbook
 
 Prepared 20 Oct 2026. Competitor: fastfridgerepairs.com.au. Sources: live page fetches, page-source schema check, Semrush AU (19 Oct 2026), your two files (Keyword_Strategy and SEO_Strategy_8_Weeks).

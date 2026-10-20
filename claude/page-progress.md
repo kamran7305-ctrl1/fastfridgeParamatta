@@ -66,3 +66,4 @@ Standing rules: `claude/content-standard.md`, `claude/website-context.md` and `c
 - 20 Oct 2026: Built FREEZER (/freezer-repair) on branch `claude/freezer-repair-page`, stacked on `claude/door-seal-page` because PR #11 was not merged yet (merge #11 first). Owner confirmed 404 live. Header/footer "Freezer Repair" links now point to it.
 - Next: BR-WESTINGHOUSE (/westinghouse-fridge-repair).
 - 20 Oct 2026: Saved claude/seo-playbook.md. Build order changed to follow its B11/A9 priorities (compressor, areas hub and nearby suburb pages, then brands and blogs). LOC-BLACKTOWN dropped.
+- 20 Oct 2026 (owner decision): the playbook is reference only. Do not change reviews, ratings or banners on existing pages and make no other site changes because of it. Only the build order and CLAUDE.md notes were updated.
