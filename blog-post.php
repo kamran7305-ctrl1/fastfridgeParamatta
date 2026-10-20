@@ -40,7 +40,7 @@ $otherPosts = $stmt->fetchAll();
 
 $pageTitle = $post['title'] . ' | Fridge Repair Parramatta';
 $metaDescription = $post['meta_description'] !== '' ? $post['meta_description'] : $post['excerpt'];
-$canonicalUrl = 'https://fridgerepairparramatta.com.au/blog-' . $post['slug'];
+$canonicalUrl = 'https://fridgerepairparramatta.com.au/blog/' . $post['slug'];
 $ogType = 'article';
 $schemaGraph = build_blog_post_schema($post);
 
@@ -87,7 +87,7 @@ require __DIR__ . '/includes/site-header.php';
             <?php else: ?>
               <div class="space-y-5 divide-y divide-slate-200">
                 <?php foreach ($otherPosts as $i => $other): ?>
-                  <a href="blog-<?= e($other['slug']) ?>" class="group block <?= $i > 0 ? 'pt-5' : '' ?>">
+                  <a href="blog/<?= e($other['slug']) ?>" class="group block <?= $i > 0 ? 'pt-5' : '' ?>">
                     <div class="text-xs text-slate-500 mb-1.5"><?= e(date('j F Y', strtotime($other['published_at'] ?? 'now'))) ?></div>
                     <h3 class="font-bold text-slate-900 text-sm leading-snug group-hover:text-sky-700 transition-colors"><?= e($other['title']) ?></h3>
                     <?php if (!empty($other['excerpt'])): ?>

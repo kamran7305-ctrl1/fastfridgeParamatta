@@ -36,7 +36,7 @@ require __DIR__ . '/includes/site-header.php';
       <?php else: ?>
         <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           <?php foreach ($posts as $post): ?>
-            <a href="blog-<?= e($post['slug']) ?>" class="reveal-child p-6 rounded-xl bg-slate-50 border border-slate-200 card-hover flex flex-col justify-between space-y-4">
+            <a href="blog/<?= e($post['slug']) ?>" class="reveal-child p-6 rounded-xl bg-slate-50 border border-slate-200 card-hover flex flex-col justify-between space-y-4">
               <div class="space-y-3">
                 <?php if (!empty($post['featured_image'])): ?>
                   <img src="<?= e($post['featured_image']) ?>"<?= image_dimensions_attr($post['featured_image']) ?> alt="" class="w-full h-32 object-cover rounded-lg" loading="lazy" decoding="async">

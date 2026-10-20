@@ -23,9 +23,9 @@ Standing rules: `claude/content-standard.md`, `claude/website-context.md` and `c
 15. LOC-HILLS: Fridge Repair Hills District / Castle Hill -> `/fridge-repair-hills-district` [TO DO]
 16. BR-WESTINGHOUSE: Westinghouse Fridge Repair -> `/westinghouse-fridge-repair` [TO DO]
 17. BR-FP: Fisher & Paykel Fridge Repair -> `/fisher-paykel-fridge-repair` [TO DO]
-18. B-LEAK: Blog: Why Is My Fridge Leaking Water? -> `/blog-why-is-my-fridge-leaking-water` [TO DO]
-19. B-REGAS-COST: Blog: Fridge Regas Cost in Parramatta -> `/blog-fridge-regas-cost-parramatta` [TO DO]
-20. B-FREEZER: Blog: Freezer Not Freezing -> `/blog-freezer-not-freezing` [TO DO]
+18. B-LEAK: Blog: Why Is My Fridge Leaking Water? -> `/blog/why-is-my-fridge-leaking-water` [TO DO]
+19. B-REGAS-COST: Blog: Fridge Regas Cost in Parramatta -> `/blog/fridge-regas-cost-parramatta` [TO DO]
+20. B-FREEZER: Blog: Freezer Not Freezing -> `/blog/freezer-not-freezing` [TO DO]
 21. BR-ELECTROLUX / BR-HAIER / BR-HISENSE / BAR-WINE / BR-MIELE / B-NOISE: lower priority, only after the above are indexing [TO DO]
 (Dropped: LOC-BLACKTOWN, because fridgerepairblacktown.com.au is the owner's other site. EXP-WSYD is conditional on the real service area.)
 
@@ -53,8 +53,8 @@ Standing rules: `claude/content-standard.md`, `claude/website-context.md` and `c
 - COST: `/fridge-repair-cost`
 - EMERG: `/emergency-fridge-repair`
 - BRANDS: `/brands`
-- B-NOTCOOL: `/blog-fridge-not-cooling-causes`
-- B-SUMMER: `/blog-summer-fridge-maintenance-tips`
+- B-NOTCOOL: `/blog/fridge-not-cooling-causes`
+- B-SUMMER: `/blog/summer-fridge-maintenance-tips`
 
 ## Log
 - 14 Oct 2026: /fridge-regas built.
@@ -74,3 +74,4 @@ Standing rules: `claude/content-standard.md`, `claude/website-context.md` and `c
 - 20 Oct 2026: Built AREAS (/areas) on branch `claude/areas-hub-page` (owner confirmed 404 live). Lists 28 suburbs as plain text (Blacktown and Seven Hills left out on purpose). When each suburb page is built, turn that suburb chip on /areas into a link and add it to the footer. Footer "Areas We Serve" heading and a homepage line now link to /areas. Next: LOC-CBD (/fridge-repairs-parramatta).
 - 20 Oct 2026: Built LOC-CBD (/fridge-repairs-parramatta) on branch `claude/parramatta-suburb-page` (owner confirmed 404 live). Uses only local facts already on the homepage (Church St, Parramatta Square, Westfield Parramatta, Harris Park, CBD apartments). The Parramatta chip on /areas and the first footer suburb now link to it. Suburb page recipe: hero with form, short answer, services grid, homes/apartments cards, businesses cards, fault table with price, price table, booking steps, brands, nearby suburbs, FAQs. Next: LOC-WESTMEAD (/fridge-repair-westmead): write fresh, do not copy-swap the Parramatta text; link its chip on /areas and the footer.
 - 20 Oct 2026: Rewrote the Samsung and LG pages (owner asked) to remove duplicate copy: overlap between them fell from 55% to 16%. Different section order, new FAQ sets (schema updated to match), brand-specific extra sections (Samsung ice maker table, LG door and seal table). Title, meta, H1 and URL unchanged. For future brand pages (Westinghouse, Fisher & Paykel): write from scratch with their own structure, never copy-swap; run a 6-word overlap check against the other brand pages before publishing.
+- 21 Oct 2026: Blog URLs changed from /blog-slug to /blog/slug (owner request). .htaccess redirects old URLs, blog-post.php/blog.php/sitemap/admin/canonical updated, shared header has `<base href="/">`, internal links updated. Future blog posts: /blog/<slug>.

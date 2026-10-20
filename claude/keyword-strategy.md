@@ -21,8 +21,8 @@ Source: `claude/Keyword_Strategy_fridgerepairparramatta.xlsx` (Semrush AU, resea
 | COST | Wk 1-2 | P1 | Fridge Repair Cost Guide | `/fridge-repair-cost` | `/fridge-repair-cost` | Core (money) | Optimise existing | fridge repair cost (170) | 8 | 940 | 9.5 |
 | EMERG | Wk 1-2 | P1 | Emergency Fridge Repair 24/7 | `/emergency-fridge-repair` | `/emergency-fridge-repair` | Core (money) | Optimise existing | emergency commercial refrigeration repair (210) | 6 | 590 | 9 |
 | BRANDS | Wk 3-4 | P2 | Brands Hub | `/brands` | `/brands` | Hub | Optimise existing | maytag fridge repairs (110) | 6 | 440 | 5.8 |
-| B-NOTCOOL | Wk 3-4 | P2 | Blog: Fridge Not Cooling - Causes | `/blog-fridge-not-cooling-causes` | `/blog-fridge-not-cooling-causes` | Blog (info) | Optimise existing | fridge not cooling (390) | 11 | 1650 | 13.6 |
-| B-SUMMER | Wk 5-6 | P3 | Blog: Summer Fridge Maintenance | `/blog-summer-fridge-maintenance-tips` | `/blog-summer-fridge-maintenance-tips` | Blog (info) | Optimise existing | fridge maintenance (110) | 1 | 110 | 7 |
+| B-NOTCOOL | Wk 3-4 | P2 | Blog: Fridge Not Cooling - Causes | `/blog/fridge-not-cooling-causes` | `/blog/fridge-not-cooling-causes` | Blog (info) | Optimise existing | fridge not cooling (390) | 11 | 1650 | 13.6 |
+| B-SUMMER | Wk 5-6 | P3 | Blog: Summer Fridge Maintenance | `/blog/summer-fridge-maintenance-tips` | `/blog/summer-fridge-maintenance-tips` | Blog (info) | Optimise existing | fridge maintenance (110) | 1 | 110 | 7 |
 | FREEZER | Wk 1-2 | P1 | Freezer Repair | `/freezer-repair` | `/services/freezer-repair` | Service (money) | Create new | freezer repair (480) | 10 | 1740 | 13.1 |
 | COMM-FRIDGE | Wk 1-2 | P1 | Commercial Fridge & Refrigeration Repair (hub) | `/commercial-refrigeration-repair` | `/commercial/commercial-refrigeration-repair` | Commercial (money) | Create new | commercial refrigeration repair (720) | 27 | 5370 | 12.1 |
 | COMM-FREEZER | Wk 3-4 | P1 | Commercial Freezer Repair | `/commercial-freezer-repair` | `/commercial/commercial-freezer-repair` | Commercial (money) | Create new | commercial freezer repair (590) | 6 | 1220 | 8.7 |
@@ -43,9 +43,9 @@ Source: `claude/Keyword_Strategy_fridgerepairparramatta.xlsx` (Semrush AU, resea
 | LOC-BLACKTOWN | Wk 5-6 | P2 | Fridge Repair Blacktown | `/fridge-repair-blacktown` | `/areas/fridge-repair-blacktown` | Suburb (money) | Create new | fridge repairs blacktown (110) | 2 | 180 | 7 |
 | LOC-HILLS | Wk 5-6 | P2 | Fridge Repair Hills District | `/fridge-repair-hills-district` | `/areas/fridge-repair-hills-district` | Regional hub (money) | Create new | appliance repairs hills district (260) | 4 | 470 | 4.2 |
 | EXP-WSYD | Wk 7-8 | P3 | Western Sydney (Penrith, Smithfield, St Marys...) | `/fridge-repair-western-sydney` | `/areas/fridge-repair-western-sydney` | Regional hub (money) | Create new (conditional) | fridge repairs smithfield (170) | 11 | 820 | 6.9 |
-| B-LEAK | Wk 5-6 | P2 | Blog: Why Is My Fridge Leaking Water? | `/blog-why-is-my-fridge-leaking-water` | `/blog/why-is-my-fridge-leaking-water` | Blog (info) | Create new | leaking water from fridge (260) | 9 | 1060 | 16.8 |
-| B-FREEZER | Wk 7-8 | P3 | Blog: Freezer Not Freezing | `/blog-freezer-not-freezing` | `/blog/freezer-not-freezing` | Blog (info) | Create new | freezer not freezing (110) | 2 | 160 | 14 |
-| B-NOISE | Wk 7-8 | P3 | Blog: Fridge Making Noise | `/blog-fridge-making-noise` | `/blog/fridge-making-noise` | Blog (info) | Create new | fridge making noise (90) | 4 | 240 | 15.8 |
+| B-LEAK | Wk 5-6 | P2 | Blog: Why Is My Fridge Leaking Water? | `/blog/why-is-my-fridge-leaking-water` | `/blog/why-is-my-fridge-leaking-water` | Blog (info) | Create new | leaking water from fridge (260) | 9 | 1060 | 16.8 |
+| B-FREEZER | Wk 7-8 | P3 | Blog: Freezer Not Freezing | `/blog/freezer-not-freezing` | `/blog/freezer-not-freezing` | Blog (info) | Create new | freezer not freezing (110) | 2 | 160 | 14 |
+| B-NOISE | Wk 7-8 | P3 | Blog: Fridge Making Noise | `/blog/fridge-making-noise` | `/blog/fridge-making-noise` | Blog (info) | Create new | fridge making noise (90) | 4 | 240 | 15.8 |
 
 ## Per-page brief (title, meta, H1, notes, competitor benchmark)
 
@@ -98,14 +98,14 @@ Source: `claude/Keyword_Strategy_fridgerepairparramatta.xlsx` (Semrush AU, resea
 - Notes: Live page lists ~50 brands. Make each major brand a link to its own page (below). Smaller brands (Bosch, CHiQ, Maytag, Amana, GE) stay as sections here - volume is 50-110 each. Confirm you actually service US brands before targeting them.
 - Competitors: sydneyfridgerepair.com.au /brands/ (LG, Samsung, GE pages)
 
-### B-NOTCOOL: Blog: Fridge Not Cooling - Causes  ->  `/blog-fridge-not-cooling-causes`
+### B-NOTCOOL: Blog: Fridge Not Cooling - Causes  ->  `/blog/fridge-not-cooling-causes`
 - Title (43): Fridge Not Cooling? 7 Common Causes & Fixes
 - Meta (126): Fridge not cooling or not cold enough? 7 common causes, what you can check yourself, and when to call a Parramatta technician.
 - H1: Fridge Not Cooling? 7 Causes and How to Fix Them
 - Notes: Live blog (URL pattern is /blog-xxx, different from the old plan). Best informational cluster found: 11 keywords, 390 top volume, KD 7-19. Use each question as an H2 and link to NOTCOOL service page.
 - Competitors: thefridgeguy.com.au (pos 2-3 for fridge not cooling/cold)
 
-### B-SUMMER: Blog: Summer Fridge Maintenance  ->  `/blog-summer-fridge-maintenance-tips`
+### B-SUMMER: Blog: Summer Fridge Maintenance  ->  `/blog/summer-fridge-maintenance-tips`
 - Title (45): Fridge Maintenance Tips for Australian Summer
 - Meta (119): Simple fridge maintenance tips for hot Sydney summers: clean coils, check seals, set temperatures and avoid breakdowns.
 - H1: Summer Fridge Maintenance Tips for Sydney Homes
@@ -252,21 +252,21 @@ Source: `claude/Keyword_Strategy_fridgerepairparramatta.xlsx` (Semrush AU, resea
 - Notes: CONDITIONAL - only build if you really travel to these suburbs (not in your current 30-suburb list). 11 keywords, 50-170 vol each, KD 4-14: fastfridgerepairs.com.au already ranks #1 for Penrith.
 - Competitors: fastfridgerepairs.com.au /fridge-repairs-penrith/ (pos 1)
 
-### B-LEAK: Blog: Why Is My Fridge Leaking Water?  ->  `/blog-why-is-my-fridge-leaking-water`
+### B-LEAK: Blog: Why Is My Fridge Leaking Water?  ->  `/blog/why-is-my-fridge-leaking-water`
 - Title (48): Why Is My Fridge Leaking Water? 6 Causes & Fixes
 - Meta (132): Water leaking from your fridge? 6 common causes (drain blockage, door seal, water line) and when to call a technician in Parramatta.
 - H1: Why Is My Fridge Leaking Water? 6 Causes and Fixes
 - Notes: 9 keywords, 260 top vol, KD 12-19. thefridgeguy.com.au ranks #1 with a single post - same format can compete. Link to a leaking-water repair CTA and fridge-repair-cost.
 - Competitors: thefridgeguy.com.au /why-is-my-fridge-leaking-water/ (pos 1)
 
-### B-FREEZER: Blog: Freezer Not Freezing  ->  `/blog-freezer-not-freezing`
+### B-FREEZER: Blog: Freezer Not Freezing  ->  `/blog/freezer-not-freezing`
 - Title (49): Freezer Not Freezing? Causes & Fixes | Parramatta
 - Meta (131): Freezer not freezing properly? Common causes - door seal, defrost heater, regas - and how to fix them or when to call a technician.
 - H1: Freezer Not Freezing? Causes and Fixes
 - Notes: 2 keywords, 110 + 50. Small but it feeds FREEZER and REGAS internal links.
 - Competitors: sydneyfridgerepair.com.au
 
-### B-NOISE: Blog: Fridge Making Noise  ->  `/blog-fridge-making-noise`
+### B-NOISE: Blog: Fridge Making Noise  ->  `/blog/fridge-making-noise`
 - Title (55): Fridge Making Noise? Clicking, Buzzing & Humming Causes
 - Meta (124): Fridge making a clicking, buzzing or humming noise? Find out what each sound means and when it needs a repair in Parramatta.
 - H1: Fridge Making Noise? What Each Sound Means

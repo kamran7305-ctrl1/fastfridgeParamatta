@@ -19,6 +19,8 @@ $schemaGraph = $schemaGraph ?? [];
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Blog posts live at /blog/slug, so relative links and assets must resolve from the site root. -->
+  <base href="/">
 
   <script>
     // Capture and immediately strip any URL fragment (#section) so the
