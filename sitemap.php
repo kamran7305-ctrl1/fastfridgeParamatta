@@ -48,6 +48,7 @@ try {
         'fridge-door-seal-replacement' => ['priority' => '0.9', 'changefreq' => 'monthly'],
         'freezer-repair'           => ['priority' => '0.9', 'changefreq' => 'monthly'],
         'fridge-compressor-repair' => ['priority' => '0.8', 'changefreq' => 'monthly'],
+        'areas'                    => ['priority' => '0.8', 'changefreq' => 'monthly'],
         'services'                 => ['priority' => '0.9', 'changefreq' => 'monthly'],
         'brands'                   => ['priority' => '0.9', 'changefreq' => 'monthly'],
     ];
