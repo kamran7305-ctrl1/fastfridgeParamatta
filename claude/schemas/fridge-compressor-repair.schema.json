@@ -1,0 +1,204 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://fridgerepairparramatta.com.au/fridge-compressor-repair#webpage",
+      "url": "https://fridgerepairparramatta.com.au/fridge-compressor-repair",
+      "name": "Fridge Compressor Repair Parramatta | Replacement",
+      "description": "Fridge compressor repair and replacement in Parramatta. Fault testing, repair-or-replace advice, 1-year warranty. Free quote.",
+      "inLanguage": "en-AU",
+      "about": {
+        "@id": "https://fridgerepairparramatta.com.au/fridge-compressor-repair#service"
+      },
+      "breadcrumb": {
+        "@id": "https://fridgerepairparramatta.com.au/fridge-compressor-repair#breadcrumb"
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://fridgerepairparramatta.com.au/fridge-compressor-repair#service",
+      "name": "Fridge Compressor Repair and Replacement Parramatta",
+      "serviceType": "Fridge compressor repair and replacement",
+      "description": "Fridge compressor testing, repair and replacement in Parramatta and Western Sydney, including start relay, capacitor, inverter board and sealed-system work. Licensed technicians, fixed quotes, repair-or-replace advice and a 1-year warranty on parts and labour.",
+      "provider": {
+        "@id": "https://fridgerepairparramatta.com.au/#business"
+      },
+      "areaServed": [
+        {
+          "@type": "City",
+          "name": "Parramatta"
+        },
+        {
+          "@type": "Place",
+          "name": "North Parramatta"
+        },
+        {
+          "@type": "Place",
+          "name": "Harris Park"
+        },
+        {
+          "@type": "Place",
+          "name": "Westmead"
+        },
+        {
+          "@type": "Place",
+          "name": "Rosehill"
+        },
+        {
+          "@type": "Place",
+          "name": "Granville"
+        },
+        {
+          "@type": "Place",
+          "name": "Merrylands"
+        },
+        {
+          "@type": "Place",
+          "name": "Northmead"
+        },
+        {
+          "@type": "Place",
+          "name": "Wentworthville"
+        },
+        {
+          "@type": "Place",
+          "name": "Rydalmere"
+        },
+        {
+          "@type": "Place",
+          "name": "Dundas"
+        },
+        {
+          "@type": "Place",
+          "name": "Oatlands"
+        },
+        {
+          "@type": "Place",
+          "name": "Carlingford"
+        },
+        {
+          "@type": "Place",
+          "name": "Toongabbie"
+        },
+        {
+          "@type": "Place",
+          "name": "Ermington"
+        }
+      ],
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "AUD",
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "minPrice": 450,
+          "maxPrice": 1100,
+          "priceCurrency": "AUD"
+        }
+      },
+      "url": "https://fridgerepairparramatta.com.au/fridge-compressor-repair"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://fridgerepairparramatta.com.au/fridge-compressor-repair#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://fridgerepairparramatta.com.au/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Services",
+          "item": "https://fridgerepairparramatta.com.au/services"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Fridge Compressor Repair",
+          "item": "https://fridgerepairparramatta.com.au/fridge-compressor-repair"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://fridgerepairparramatta.com.au/fridge-compressor-repair#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How much does fridge compressor replacement cost in Parramatta?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A fridge compressor replacement usually costs $450 to $1,100, depending on the fridge and the compressor type. Inverter compressors in brands such as Samsung, LG and Panasonic sit at the top of the range. You get a fixed quote before we start, and that is the price you pay."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I know if my fridge compressor has failed?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A failed compressor usually means the fridge is warm and the compressor is silent, or it clicks on and off, or it runs hot and the fridge never gets cold. The same signs can come from a faulty start relay or capacitor, which costs far less, so the compressor should be tested before you decide."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the difference between a bad compressor and a bad start relay?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The start relay is a small part that helps the compressor start. When it fails, the fridge can click and not run, which looks like a dead compressor. A relay or capacitor repair is typically $120 to $250, so we test it first."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can a fridge compressor be repaired, or does it have to be replaced?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Most compressor problems are in the parts around it: the relay, overload, capacitor, inverter board or fan. If the compressor itself has failed, it is replaced. That is a sealed-system job and needs licensed work."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is it worth replacing a fridge compressor?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "If the fridge is under about 10 years old and the repair costs less than half the price of a similar new fridge, usually yes. On an older fridge, or one with other problems, a new fridge can be better value. We give you the numbers and let you decide."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does my fridge compressor warranty still apply?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Some brands have offered extended compressor warranties on certain models. Check your purchase date, model number and the brand's current terms before you pay. If cover is still on, claiming may cost less than paying us."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does a fridge compressor replacement take?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It is a bigger job than most fridge repairs. It involves cutting into the sealed system, brazing in the new compressor, a deep vacuum and a recharge of the gas. We give you a timeframe when we quote, and the fridge needs time to settle afterwards."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you replace compressors in commercial fridges and freezers?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Commercial compressors vary a lot in size and gas type, so they are quoted after testing. See our commercial refrigeration repair page for details."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are you licensed to replace a fridge compressor?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Our work is carried out by licensed refrigeration mechanics (Lic #R38910) who are ARC licensed to handle refrigerant, as the law requires for sealed-system work."
+          }
+        }
+      ]
+    }
+  ]
+}

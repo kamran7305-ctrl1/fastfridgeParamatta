@@ -12,7 +12,7 @@ Standing rules: `claude/content-standard.md`, `claude/website-context.md` and `c
 4. ICE: Ice Machine Repair -> `/ice-machine-repair` (Wk 3-4 P2) [DONE 19 Oct]
 5. SEAL: Fridge Door Seal Replacement -> `/fridge-door-seal-replacement` (Wk 3-4 P1) [DONE 19 Oct]
 6. FREEZER: Freezer Repair -> `/freezer-repair` (Wk 1-2 P1) [DONE 20 Oct]
-7. COMPRESSOR: Fridge Compressor Repair & Replacement -> `/fridge-compressor-repair` [TO DO]
+7. COMPRESSOR: Fridge Compressor Repair & Replacement -> `/fridge-compressor-repair` [DONE 20 Oct]
 8. AREAS: Areas We Service (hub) -> `/areas` [TO DO]
 9. LOC-CBD: Fridge Repairs Parramatta (own suburb page) -> `/fridge-repairs-parramatta` [TO DO]
 10. LOC-WESTMEAD: Fridge Repairs Westmead -> `/fridge-repair-westmead` [TO DO]
@@ -40,6 +40,7 @@ Standing rules: `claude/content-standard.md`, `claude/website-context.md` and `c
 - ICE: `/ice-machine-repair` [DONE 19 Oct; schema in claude/schemas/]
 - SEAL: `/fridge-door-seal-replacement` [DONE 19 Oct; schema in claude/schemas/]
 - FREEZER: `/freezer-repair` [DONE 20 Oct; schema in claude/schemas/]
+- COMPRESSOR: `/fridge-compressor-repair` [DONE 20 Oct; schema in claude/schemas/]
 
 ## Live pages that still need the sheet's title/meta/H1 optimisation (later phase)
 
@@ -67,3 +68,4 @@ Standing rules: `claude/content-standard.md`, `claude/website-context.md` and `c
 - Next: BR-WESTINGHOUSE (/westinghouse-fridge-repair).
 - 20 Oct 2026: Saved claude/seo-playbook.md. Build order changed to follow its B11/A9 priorities (compressor, areas hub and nearby suburb pages, then brands and blogs). LOC-BLACKTOWN dropped.
 - 20 Oct 2026 (owner decision): the playbook is reference only. Do not change reviews, ratings or banners on existing pages and make no other site changes because of it. Only the build order and CLAUDE.md notes were updated.
+- 20 Oct 2026: Built COMPRESSOR (/fridge-compressor-repair) on branch `claude/compressor-page` (owner confirmed 404 live). PR #11 and #12 are merged. Next: AREAS (/areas).
