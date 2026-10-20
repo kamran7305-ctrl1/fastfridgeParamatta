@@ -115,7 +115,7 @@ try {
                 $lastmodSource = $post['updated_at'] ?? $post['published_at'] ?? null;
                 $lastmodTime = $lastmodSource !== null ? strtotime($lastmodSource) : false;
                 $urls[] = [
-                    'loc' => BASE_URL . '/blog-' . $post['slug'],
+                    'loc' => BASE_URL . '/blog/' . $post['slug'],
                     'lastmod' => date('Y-m-d', $lastmodTime !== false ? $lastmodTime : time()),
                     'changefreq' => 'yearly',
                     'priority' => '0.6',

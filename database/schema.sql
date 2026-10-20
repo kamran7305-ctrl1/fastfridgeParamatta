@@ -292,7 +292,7 @@ INSERT INTO blog_posts (slug, title, meta_description, excerpt, content, read_ti
 <li>Cover food and liquids. Uncovered food releases moisture, which the fridge then has to deal with as frost.</li>
 <li>When it''s time to replace, check the Energy Rating label. More stars means less power, and the label shows the estimated kWh per year so you can compare models properly.</li>
 </ul>
-<p>Thinking about replacing an old fridge? Read: <a href="blog-repair-or-replace-guide" rel="noopener">Repair or Replace Your Fridge?</a></p>
+<p>Thinking about replacing an old fridge? Read: <a href="blog/repair-or-replace-guide" rel="noopener">Repair or Replace Your Fridge?</a></p>
 
 <h2>Heatwaves and Blackouts: Keeping Food Safe</h2>
 <p>Summer storms and heatwaves bring power cuts. If the power goes out, keep the doors shut. A closed fridge will usually keep food cold for about four hours, and a full freezer for around 48 hours (about 24 if it''s half full).</p>
@@ -312,7 +312,7 @@ INSERT INTO blog_posts (slug, title, meta_description, excerpt, content, read_ti
 <li>Your power bill has jumped and nothing else has changed.</li>
 </ul>
 <p>If you notice any of these, book a check sooner rather than later. Small faults like a tired fan or a worn seal are cheap to fix now, but they can take out a compressor if they''re left through a hot summer.</p>
-<p>Read more: <a href="blog-fridge-not-cooling-causes" rel="noopener">fridge not cooling guide</a> · <a href="fridge-repair-cost" rel="noopener">repair prices</a> · <a href="emergency-fridge-repair" rel="noopener">urgent help</a></p>
+<p>Read more: <a href="blog/fridge-not-cooling-causes" rel="noopener">fridge not cooling guide</a> · <a href="fridge-repair-cost" rel="noopener">repair prices</a> · <a href="emergency-fridge-repair" rel="noopener">urgent help</a></p>
 
 <h2>Fridge Maintenance Checklist: When to Do What</h2>
 <ul>

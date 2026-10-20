@@ -189,7 +189,7 @@ function clean_dom_node(DOMNode $node, array $allowedTags, array $allowedAttrsBy
  *   sanitize_post_content() already prevents for anything actually saved).
  */
 function build_blog_post_schema(array $post): array {
-    $canonicalUrl = 'https://fridgerepairparramatta.com.au/blog-' . $post['slug'];
+    $canonicalUrl = 'https://fridgerepairparramatta.com.au/blog/' . $post['slug'];
     $businessId = ['@id' => 'https://fridgerepairparramatta.com.au/#business'];
 
     $graph = [

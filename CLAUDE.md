@@ -11,7 +11,7 @@ The owner does not want to say each day which page to build.
 5. When the page is done: update `claude/page-progress.md` (status plus log line), add links to it from related live pages, add it to the sitemap and `.htaccess`, commit and push to the branch you were given.
 
 ## Site rules
-- Flat URLs only (`/fridge-regas`, `/lg-fridge-repair`). The keyword sheet's `/services/...`, `/commercial/...`, `/brands/...` URLs are not used; the flat mapping is in `claude/keyword-strategy.md`.
+- Flat URLs only for pages (`/fridge-regas`, `/lg-fridge-repair`). Blog posts are the exception: they live at `/blog/<slug>` (owner decision 21 Oct); old `/blog-<slug>` URLs 301 to the new form, and the listing stays at `/blog`. The keyword sheet's `/services/...`, `/commercial/...`, `/brands/...` URLs are not used; the flat mapping is in `claude/keyword-strategy.md`.
 - Each page is a root `*.html` file. New page = copy the site's header/footer from an existing page, add the route to `.htaccess` (both lists), add its priority to `sitemap.php`.
 - `tailwind-built.css` is precompiled. After adding new Tailwind classes run `cd .buildtools && npm ci && npx tailwindcss -i input.css -o ../tailwind-built.css --minify`.
 - No phone number exists on the site, so never add a tel: link. No ARCtick number is known: use the owner's wording ("ARCtick licensed & verified" or "ARC-licensed") and no number. Lic #R38910 is on the site.
