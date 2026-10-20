@@ -1,0 +1,134 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://fridgerepairparramatta.com.au/fridge-repairs-parramatta#webpage",
+      "url": "https://fridgerepairparramatta.com.au/fridge-repairs-parramatta",
+      "name": "Fridge Repairs Parramatta | Local Technicians",
+      "description": "Fridge repairs in Parramatta 2150 for homes, apartments and CBD businesses. Local technicians, fixed quote, 1-year warranty. Book online or email us.",
+      "inLanguage": "en-AU",
+      "about": {
+        "@id": "https://fridgerepairparramatta.com.au/fridge-repairs-parramatta#service"
+      },
+      "breadcrumb": {
+        "@id": "https://fridgerepairparramatta.com.au/fridge-repairs-parramatta#breadcrumb"
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://fridgerepairparramatta.com.au/fridge-repairs-parramatta#service",
+      "name": "Fridge Repairs Parramatta",
+      "serviceType": "Fridge, freezer and commercial refrigeration repair",
+      "description": "Fridge, freezer and commercial refrigeration repair in Parramatta 2150 for homes, apartments and CBD businesses around Church Street, Parramatta Square and Westfield Parramatta. Licensed technicians, fixed quotes and a 1-year warranty on parts and labour.",
+      "provider": {
+        "@id": "https://fridgerepairparramatta.com.au/#business"
+      },
+      "areaServed": [
+        {
+          "@type": "City",
+          "name": "Parramatta"
+        },
+        {
+          "@type": "Place",
+          "name": "Harris Park"
+        },
+        {
+          "@type": "Place",
+          "name": "North Parramatta"
+        },
+        {
+          "@type": "Place",
+          "name": "Rosehill"
+        }
+      ],
+      "url": "https://fridgerepairparramatta.com.au/fridge-repairs-parramatta"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://fridgerepairparramatta.com.au/fridge-repairs-parramatta#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://fridgerepairparramatta.com.au/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Areas We Service",
+          "item": "https://fridgerepairparramatta.com.au/areas"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Fridge Repairs Parramatta",
+          "item": "https://fridgerepairparramatta.com.au/fridge-repairs-parramatta"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://fridgerepairparramatta.com.au/fridge-repairs-parramatta#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Do you repair fridges in Parramatta CBD apartments?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. We repair fridges, freezers and bar fridges in apartments across the Parramatta CBD. When you book, tell us about any access rules such as lift bookings or loading dock times, and we plan the visit around them."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does a fridge repair cost in Parramatta?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Most domestic fridge repairs in Parramatta cost $150 to $450 including parts, plus a call-out fee of about $60 to $200. A door seal is $120 to $300, a compressor $450 to $1,100. You get a fixed quote before we start."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can you repair my cafe or restaurant fridge near Church Street?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. We repair commercial fridges, freezers, coolrooms and ice machines for hospitality venues around Church Street and Parramatta Square, as well as shops around Westfield Parramatta. Commercial jobs are quoted separately, with a call-out of about $100 to $250."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How fast can a technician get to Parramatta?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Our technicians are based locally, so travel time to the CBD and nearby suburbs is short. Same-day visits are available where we have a slot, and booking early in the day gives you the best chance."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which fridge brands do you repair in Parramatta?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We repair most makes, including Samsung, LG, Westinghouse, Fisher & Paykel, Electrolux, Bosch, Hisense and Haier. Have your model number ready when you book. It is on a label inside the fridge."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What should I check before I call?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Make sure the fridge is plugged in and the door is closing fully, and check for a tripped switch. Note any error code and the brand and model. If the fridge is warm, move meat and dairy to a cooler with ice while you wait."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are you licensed to repair fridges in Parramatta?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Our work is carried out by licensed refrigeration mechanics (Lic #R38910) who are ARC licensed to handle refrigerant. We are independent and not tied to any brand."
+          }
+        }
+      ]
+    }
+  ]
+}

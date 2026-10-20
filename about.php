@@ -376,7 +376,7 @@ function seo_e(string $s): string { return htmlspecialchars($s, ENT_QUOTES, 'UTF
         <div class="reveal-child space-y-3">
           <h3 class="text-xs font-bold text-white uppercase tracking-wider"><a href="areas" class="hover:text-sky-400">Areas We Serve</a></h3>
           <p class="leading-relaxed">
-            Parramatta · North Parramatta · Harris Park · Westmead · Rosehill · Granville · Merrylands · Wentworthville · Northmead · Oatlands · Rydalmere · Dundas · Telopea · Carlingford · Toongabbie · Winston Hills · Baulkham Hills · Silverwater
+            <a href="fridge-repairs-parramatta" class="hover:text-sky-400">Parramatta</a> · North Parramatta · Harris Park · Westmead · Rosehill · Granville · Merrylands · Wentworthville · Northmead · Oatlands · Rydalmere · Dundas · Telopea · Carlingford · Toongabbie · Winston Hills · Baulkham Hills · Silverwater
           </p>
         </div>
 
