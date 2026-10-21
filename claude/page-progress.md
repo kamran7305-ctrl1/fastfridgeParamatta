@@ -15,7 +15,7 @@ Standing rules: `claude/content-standard.md`, `claude/website-context.md` and `c
 7. COMPRESSOR: Fridge Compressor Repair & Replacement -> `/fridge-compressor-repair` [DONE 20 Oct]
 8. AREAS: Areas We Service (hub) -> `/areas` [DONE 20 Oct]
 9. LOC-CBD: Fridge Repairs Parramatta (own suburb page) -> `/fridge-repairs-parramatta` [DONE 20 Oct]
-10. LOC-WESTMEAD: Fridge Repairs Westmead -> `/fridge-repair-westmead` [TO DO]
+10. LOC-WESTMEAD: Fridge Repairs Westmead -> `/fridge-repair-westmead` [DONE 21 Oct]
 11. LOC-GRANVILLE: Fridge Repairs Granville -> `/fridge-repair-granville` [TO DO]
 12. LOC-NPARRAMATTA: Fridge Repairs North Parramatta -> `/fridge-repair-north-parramatta` [TO DO]
 13. LOC-HARRISPARK: Fridge Repairs Harris Park -> `/fridge-repair-harris-park` [TO DO]
@@ -43,6 +43,7 @@ Standing rules: `claude/content-standard.md`, `claude/website-context.md` and `c
 - COMPRESSOR: `/fridge-compressor-repair` [DONE 20 Oct; schema in claude/schemas/]
 - AREAS: `/areas` [DONE 20 Oct; schema in claude/schemas/]
 - LOC-CBD: `/fridge-repairs-parramatta` [DONE 20 Oct; schema in claude/schemas/]
+- LOC-WESTMEAD: `/fridge-repair-westmead` [DONE 21 Oct; schema in claude/schemas/]
 
 ## Live pages that still need the sheet's title/meta/H1 optimisation (later phase)
 
@@ -75,3 +76,4 @@ Standing rules: `claude/content-standard.md`, `claude/website-context.md` and `c
 - 20 Oct 2026: Built LOC-CBD (/fridge-repairs-parramatta) on branch `claude/parramatta-suburb-page` (owner confirmed 404 live). Uses only local facts already on the homepage (Church St, Parramatta Square, Westfield Parramatta, Harris Park, CBD apartments). The Parramatta chip on /areas and the first footer suburb now link to it. Suburb page recipe: hero with form, short answer, services grid, homes/apartments cards, businesses cards, fault table with price, price table, booking steps, brands, nearby suburbs, FAQs. Next: LOC-WESTMEAD (/fridge-repair-westmead): write fresh, do not copy-swap the Parramatta text; link its chip on /areas and the footer.
 - 20 Oct 2026: Rewrote the Samsung and LG pages (owner asked) to remove duplicate copy: overlap between them fell from 55% to 16%. Different section order, new FAQ sets (schema updated to match), brand-specific extra sections (Samsung ice maker table, LG door and seal table). Title, meta, H1 and URL unchanged. For future brand pages (Westinghouse, Fisher & Paykel): write from scratch with their own structure, never copy-swap; run a 6-word overlap check against the other brand pages before publishing.
 - 21 Oct 2026: Blog URLs changed from /blog-slug to /blog/slug (owner request). .htaccess redirects old URLs, blog-post.php/blog.php/sitemap/admin/canonical updated, shared header has `<base href="/">`, internal links updated. Future blog posts: /blog/<slug>.
+- 21 Oct 2026: Built LOC-WESTMEAD (/fridge-repair-westmead) on branch `claude/westmead-page` (owner confirmed 404 live). Different structure from the Parramatta page (health precinct and homes sections, services-and-prices table, numbered timeline, 7 FAQs). Overlap with Parramatta page 21%. Westmead chip on /areas and /fridge-repairs-parramatta plus the footer suburb list now link to it. Next: LOC-GRANVILLE (/fridge-repair-granville), written fresh again.
