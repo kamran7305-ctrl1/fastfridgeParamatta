@@ -1,0 +1,118 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://fridgerepairparramatta.com.au/fridge-repair-harris-park#webpage",
+      "url": "https://fridgerepairparramatta.com.au/fridge-repair-harris-park",
+      "name": "Fridge Repairs Harris Park | Restaurants and Homes",
+      "description": "Fridge, freezer and coolroom repairs in Harris Park 2150 for restaurants, cafes and homes. Technicians based next door, fixed quote. Book online.",
+      "inLanguage": "en-AU",
+      "about": {
+        "@id": "https://fridgerepairparramatta.com.au/fridge-repair-harris-park#service"
+      },
+      "breadcrumb": {
+        "@id": "https://fridgerepairparramatta.com.au/fridge-repair-harris-park#breadcrumb"
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://fridgerepairparramatta.com.au/fridge-repair-harris-park#service",
+      "name": "Fridge Repairs Harris Park",
+      "serviceType": "Fridge, freezer and commercial refrigeration repair",
+      "description": "Fridge, freezer, coolroom and ice machine repair in Harris Park 2150 for restaurants, cafes and homes. Licensed technicians based in nearby Parramatta, fixed quotes and a 1-year warranty on parts and labour.",
+      "provider": {
+        "@id": "https://fridgerepairparramatta.com.au/#business"
+      },
+      "areaServed": [
+        {
+          "@type": "Place",
+          "name": "Harris Park"
+        },
+        {
+          "@type": "City",
+          "name": "Parramatta"
+        }
+      ],
+      "url": "https://fridgerepairparramatta.com.au/fridge-repair-harris-park"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://fridgerepairparramatta.com.au/fridge-repair-harris-park#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://fridgerepairparramatta.com.au/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Areas We Service",
+          "item": "https://fridgerepairparramatta.com.au/areas"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Fridge Repairs Harris Park",
+          "item": "https://fridgerepairparramatta.com.au/fridge-repair-harris-park"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://fridgerepairparramatta.com.au/fridge-repair-harris-park#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Do you repair restaurant and cafe fridges in Harris Park?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. We repair prep fridges, under-bench units, upright freezers, display fridges, coolrooms and ice machines for restaurants and cafes in Harris Park. Commercial call-outs are about $100 to $250, and commercial repairs usually cost $200 to $900."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "My restaurant fridge failed during service. What should I do?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Close the doors and leave them, put the riskiest food in a working fridge or a cooler with ice, and measure the temperature with a probe. Cold food needs to stay at 5°C or below. Then send us the equipment details and what it is doing."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How quickly can a technician get to Harris Park?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Our technicians are based in Parramatta, and Harris Park is next door, so travel time is short. Same-day visits are available where we have a slot, and booking early in the day gives you the best chance. We confirm a time when you book."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can you work around opening hours and deliveries?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tell us your trading hours and delivery windows when you book and we plan the visit around them where we can. For urgent faults, we take after-hours calls and confirm the fastest time we can get there."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does a fridge repair cost in Harris Park?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Most home repairs cost $150 to $450 including parts, plus a call-out of about $60 to $200. A door seal is $120 to $300 and a compressor $450 to $1,100. Business prices are above. You get a fixed quote before we start."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are you licensed to repair commercial refrigeration in Harris Park?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Our work is carried out by licensed refrigeration mechanics (Lic #R38910) who are ARC licensed to handle refrigerant. We are independent and not tied to any brand, so we tell you plainly when a repair is not worth it."
+          }
+        }
+      ]
+    }
+  ]
+}

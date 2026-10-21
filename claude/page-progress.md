@@ -18,7 +18,7 @@ Standing rules: `claude/content-standard.md`, `claude/website-context.md` and `c
 10. LOC-WESTMEAD: Fridge Repairs Westmead -> `/fridge-repair-westmead` [DONE 21 Oct]
 11. LOC-GRANVILLE: Fridge Repairs Granville -> `/fridge-repair-granville` [DONE 21 Oct]
 12. LOC-NPARRAMATTA: Fridge Repairs North Parramatta -> `/fridge-repair-north-parramatta` [DONE 21 Oct]
-13. LOC-HARRISPARK: Fridge Repairs Harris Park -> `/fridge-repair-harris-park` [TO DO]
+13. LOC-HARRISPARK: Fridge Repairs Harris Park -> `/fridge-repair-harris-park` [DONE 21 Oct]
 14. LOC-MERRYLANDS: Fridge Repairs Merrylands -> `/fridge-repair-merrylands` [TO DO]
 15. LOC-HILLS: Fridge Repair Hills District / Castle Hill -> `/fridge-repair-hills-district` [TO DO]
 16. BR-WESTINGHOUSE: Westinghouse Fridge Repair -> `/westinghouse-fridge-repair` [TO DO]
@@ -46,6 +46,7 @@ Standing rules: `claude/content-standard.md`, `claude/website-context.md` and `c
 - LOC-WESTMEAD: `/fridge-repair-westmead` [DONE 21 Oct; schema in claude/schemas/]
 - LOC-GRANVILLE: `/fridge-repair-granville` [DONE 21 Oct; schema in claude/schemas/]
 - LOC-NPARRAMATTA: `/fridge-repair-north-parramatta` [DONE 21 Oct; schema in claude/schemas/]
+- LOC-HARRISPARK: `/fridge-repair-harris-park` [DONE 21 Oct; schema in claude/schemas/]
 
 ## Live pages that still need the sheet's title/meta/H1 optimisation (later phase)
 
@@ -81,3 +82,4 @@ Standing rules: `claude/content-standard.md`, `claude/website-context.md` and `c
 - 21 Oct 2026: Built LOC-WESTMEAD (/fridge-repair-westmead) on branch `claude/westmead-page` (owner confirmed 404 live). Different structure from the Parramatta page (health precinct and homes sections, services-and-prices table, numbered timeline, 7 FAQs). Overlap with Parramatta page 21%. Westmead chip on /areas and /fridge-repairs-parramatta plus the footer suburb list now link to it. Next: LOC-GRANVILLE (/fridge-repair-granville), written fresh again.
 - 21 Oct 2026: Built LOC-GRANVILLE (/fridge-repair-granville) on branch `claude/granville-page`, stacked on `claude/westmead-page` because PR #18 was not merged yet (merge #18 first). Owner confirmed 404 live. Business-first structure (industrial areas, commercial fault table, stock-protection steps, home section last); overlap with other suburb pages 15 to 16%. Granville chip on /areas, Westmead and Parramatta pages plus the footer list link to it. Next: LOC-NPARRAMATTA (/fridge-repair-north-parramatta).
 - 21 Oct 2026: Built LOC-NPARRAMATTA (/fridge-repair-north-parramatta) on branch `claude/north-parramatta-page`, stacked on `claude/granville-page` (PR #19), which is stacked on `claude/westmead-page` (PR #18); merge #18, #19, then this one. Owner confirmed 404 live. Homepage has little North Parramatta detail, so the page leans on pricing, quick checks and repair-or-replace advice (1,045 words, overlap 15 to 23%). Its chip in the service pages, /areas, other suburb pages and the footer now link to it. Next: LOC-HARRISPARK (/fridge-repair-harris-park). Tip: ask the owner to merge the open PRs so stacking does not grow.
+- 21 Oct 2026: Built LOC-HARRISPARK (/fridge-repair-harris-park) on branch `claude/harris-park-page`, stacked on `claude/north-parramatta-page` (PR #20, which sits on #19 and #18). Owner confirmed 404 live. Restaurant and cafe first (homepage mentions Harris Park restaurants), overlap with other suburb pages 17 to 29% (mostly shared form, price and licence lines). Chips and footer link to it. Next: LOC-MERRYLANDS (/fridge-repair-merrylands). The stack of open PRs is getting long: ask the owner to merge #18 to #21 in order.
