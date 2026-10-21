@@ -6,6 +6,13 @@ on:
       - main
       - 'claude/**'
 
+# Only one FTP deploy may run at a time. Two deploys running together (for example
+# two PR merges in a row) can finish out of order, and the one that finishes last
+# overwrites the server with an older copy of the site and deletes newer pages.
+concurrency:
+  group: hostinger-ftp-deploy
+  cancel-in-progress: false
+
 jobs:
   deploy:
     name: FTP deploy
