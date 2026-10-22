@@ -60,6 +60,20 @@ try {
     $defaultPriority = '0.6';
     $defaultChangefreq = 'monthly';
 
+    // site-manifest.json is written by the deploy workflow (.github/scripts/make_site_manifest.py).
+    // When present it is the list of pages that belong to the site, with the date of
+    // each page's last commit. That keeps stale files that only exist on the server out
+    // of the sitemap and makes <lastmod> mean "last changed", not "last uploaded".
+    // Without it (local runs, first deploy) the directory scan below is used as before.
+    $manifest = null;
+    $manifestPath = __DIR__ . '/site-manifest.json';
+    if (is_readable($manifestPath)) {
+        $decoded = json_decode((string) file_get_contents($manifestPath), true);
+        if (is_array($decoded) && isset($decoded['pages']) && is_array($decoded['pages'])) {
+            $manifest = $decoded['pages'];
+        }
+    }
+
     // Homepage, pinned first with top priority. lastmod comes from index.html's
     // own mtime. The legacy /fridge-repair-parramatta/ slug still resolves (for
     // old bookmarks/backlinks) but canonicalizes to this URL, so it's not
@@ -67,6 +81,9 @@ try {
     $indexPath = __DIR__ . '/index.html';
     $homeMtime = file_exists($indexPath) ? filemtime($indexPath) : false;
     $homeLastmod = date('Y-m-d', $homeMtime !== false ? $homeMtime : time());
+    if ($manifest !== null && !empty($manifest['index'])) {
+        $homeLastmod = $manifest['index'];
+    }
     $urls[] = ['loc' => BASE_URL . '/', 'lastmod' => $homeLastmod, 'changefreq' => 'daily', 'priority' => '1.0'];
 
     // Every other top-level page: scan the directory instead of hand-
@@ -92,12 +109,17 @@ try {
             || ($ext === 'php' && in_array($slug, $nonPagePhp, true))) {
             continue;
         }
+        if ($manifest !== null && !isset($manifest[$slug])) {
+            continue;   // not tracked in git: a stale file left on the server
+        }
         $seenSlugs[$slug] = true;
         $mtime = filemtime($path);
         $settings = $pageSettings[$slug] ?? ['priority' => $defaultPriority, 'changefreq' => $defaultChangefreq];
         $urls[] = [
             'loc' => BASE_URL . '/' . $slug,
-            'lastmod' => date('Y-m-d', $mtime !== false ? $mtime : time()),
+            'lastmod' => ($manifest !== null && !empty($manifest[$slug]))
+                ? $manifest[$slug]
+                : date('Y-m-d', $mtime !== false ? $mtime : time()),
             'changefreq' => $settings['changefreq'],
             'priority' => $settings['priority'],
         ];

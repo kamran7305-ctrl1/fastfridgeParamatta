@@ -45,7 +45,11 @@ $schemaGraph = $schemaGraph ?? [];
   <link rel="icon" type="image/webp" href="image/FFp-logo.webp">
   <link rel="apple-touch-icon" href="image/FFp-logo.webp">
   <meta name="description" content="<?= e($metaDescription) ?>">
+<?php if (!empty($noindexPage)): ?>
+  <meta name="robots" content="noindex, follow">
+<?php else: ?>
   <link rel="canonical" href="<?= e($canonicalUrl) ?>">
+<?php endif; ?>
 
   <!-- Open Graph / Social Meta -->
   <meta property="og:title" content="<?= e($pageTitle) ?>">
