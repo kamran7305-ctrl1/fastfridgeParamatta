@@ -14,12 +14,31 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  deploy:
-    name: FTP deploy
+  checks:
+    name: Lint and site audit
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - uses: actions/checkout@v4
+      - uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.2'
+      - name: PHP syntax check
+        run: find . -name '*.php' -not -path './.buildtools/*' -print0 | xargs -0 -n1 php -l > /dev/null
+      - name: Static site audit (routes, links, canonicals, robots, sitemap inputs)
+        run: python3 tests/site_audit.py
+
+  deploy:
+    name: FTP deploy
+    needs: checks
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout (full history for page dates)
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Build site manifest (page list and last-changed dates for sitemap.xml)
+        run: python3 .github/scripts/make_site_manifest.py
 
       - name: Upload to Hostinger via FTP
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
@@ -47,3 +66,18 @@ jobs:
             HOSTINGER_DEPLOYMENT.md
             claude/**
             CLAUDE.md
+            tests/**
+            .github/scripts/**
+
+      - name: Smoke test live site
+        run: |
+          sleep 20
+          fail=0
+          check() { code=$(curl -s -o /dev/null -w '%{http_code}' "$1"); [ "$code" = "$2" ] || { echo "FAIL $1 expected $2 got $code"; fail=1; }; }
+          check https://fridgerepairparramatta.com.au/ 200
+          check https://fridgerepairparramatta.com.au/robots.txt 200
+          check https://fridgerepairparramatta.com.au/sitemap.xml 200
+          check https://fridgerepairparramatta.com.au/fridge-regas 200
+          check https://fridgerepairparramatta.com.au/this-page-does-not-exist 404
+          check https://fridgerepairparramatta.com.au/.ftp-deploy-sync-state.json 403
+          exit $fail

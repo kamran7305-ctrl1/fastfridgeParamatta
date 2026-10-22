@@ -13,10 +13,10 @@ RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
 RewriteRule ^(.*)$ https://%1/$1 [L,R=301]
 
-# 2. URL Rewriting for URL Slug: /fridge-repair-parramatta/
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^fridge-repair-parramatta/?$ index.html [L,QSA]
+# 2. The old /fridge-repair-parramatta/ slug used to serve a second copy of the
+# homepage with a 200. It now redirects permanently to the homepage so there is
+# one canonical URL and old backlinks pass their value on.
+RewriteRule ^fridge-repair-parramatta/?$ / [R=301,L]
 
 # 2a. Clean URLs, step 1: redirect any old .html link to its extension-free
 # version (301, so old bookmarks/search results/external links still land
@@ -57,6 +57,11 @@ RewriteRule ^database/ - [F,L]
   Require all denied
 </FilesMatch>
 <FilesMatch "^config\.php$">
+  Require all denied
+</FilesMatch>
+# The FTP deploy action leaves its sync-state file and the build manifest in the web
+# root. Neither should be downloadable (the state file lists every deployed file).
+<FilesMatch "^(\.ftp-deploy-sync-state\.json|site-manifest\.json)$">
   Require all denied
 </FilesMatch>
 

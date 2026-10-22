@@ -13,6 +13,7 @@ if ($slug !== '') {
 
 if (!$post) {
     http_response_code(404);
+    $noindexPage = true;   // a 404 must not carry a canonical or be indexed
     $pageTitle = 'Article Not Found | Fridge Repair Parramatta';
     $metaDescription = 'The blog article you were looking for could not be found.';
     $canonicalUrl = 'https://fridgerepairparramatta.com.au/blog';
